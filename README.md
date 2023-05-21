@@ -28,5 +28,14 @@ Pass the input text as parameter to the URL given as
  - scraped_data.csv : The data scraped from the websites is saved as acsv file.
  - requirements.txt : Text file containing the libraries required for execution
 
+### Instructions:
+1. Run the following command in the app's directory to run your web app.
+    `python app.py`
+
+3. Go to http://127.0.0.1:5000
+
+## Result:
+The web app displays the Overview of the Training set and the distribution of the categories.
+
 ## Acknowledgements:
  - I would like to thank Mercor for assigning me this project.
