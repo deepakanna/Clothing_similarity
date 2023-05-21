@@ -26,9 +26,7 @@ The URL is https://us-central1-custom-valve-387307.cloudfunctions.net/clothing
 Pass the input text as parameter to the URL given as https://us-central1-custom-valve-387307.cloudfunctions.net/clothing?text_val= "This is an amazing bluepant"
 
 ## 6. Result
-![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/cc3bfc84-20bf-4f0c-b8ef-5b127e91e3c2)
-If no input text is given, a default text val="This is a stylish and comfortable kurti" is given as input text 
-![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/c0489665-1bb4-4d91-bef9-e749afbbcd8e)
+![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/bcdcafab-37df-4962-a521-aca3de29eb5d)
 
 The result is a ranked suggested list of web links pertaining to the text data given based on the similarity.
 
