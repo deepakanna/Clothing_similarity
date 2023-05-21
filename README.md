@@ -21,7 +21,7 @@ The similarity values are sorted in decending order to obtain the top similar de
 ## 5. Deploy the function
  The function is deployed on Google Cloud Functions. The URL is https://us-central1-custom-valve-387307.cloudfunctions.net/clothing
 Pass the input text as parameter to the URL given as https://us-central1-custom-valve-387307.cloudfunctions.net/clothing?text_val=This is an amazing bluepant
- * Result
+## 6. Result
 ![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/cc3bfc84-20bf-4f0c-b8ef-5b127e91e3c2)
 If no input text is given, a default text val="This is a stylish and comfortable kurti" is given as input text 
 ![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/c0489665-1bb4-4d91-bef9-e749afbbcd8e)
@@ -33,15 +33,6 @@ If no input text is given, a default text val="This is a stylish and comfortable
  - scraped_data.csv : The data scraped from the websites is saved as acsv file.
  - requirements.txt : Text file containing the libraries required for execution
 
-### Instructions:
-1. Run the following command in the app's directory to run your web app.
-    `python app.py`
-
-2. Go to http://127.0.0.1:5000
-
-
-## Result:
-The web app displays the Overview of the Training set and the distribution of the categories.
 
 ## Acknowledgements:
  - I would like to thank Mercor for assigning me this project.
