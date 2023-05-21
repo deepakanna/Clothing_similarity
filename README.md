@@ -29,7 +29,6 @@ If no input text is given, a default text val="This is a stylish and comfortable
 
  ## Files in the repository:
  - model : A folder containing two Jupyter notebooks. Web_scrap is a Jupyter notebook for  the webscraped data and a model to obtain the suggested urls for the input text.
- - web_app: A flask web application to run the application in a browser.
  - scraped_data.csv : The data scraped from the websites is saved as acsv file.
  - requirements.txt : Text file containing the libraries required for execution
 
