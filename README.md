@@ -19,8 +19,13 @@
 The similarity values are sorted in decending order to obtain the top similar description that matches the text data. The top 10 descriptions in the dataset that are similar to the input text are determined and the corresponding url of the website is obtained from the dataset. The urls obtained are serialized to json format and returned to the user. A flask web framework with a input text box and a button is used to input the text values for which similarity is to be otained. The button is used to call the function that retrieves the suggested urls.
  
 ## 5. Deploy the function
- The function is deployed on Google Cloud Functions. The URL is 
-Pass the input text as parameter to the URL given as 
+ The function is deployed on Google Cloud Functions. The URL is https://us-central1-custom-valve-387307.cloudfunctions.net/clothing
+Pass the input text as parameter to the URL given as https://us-central1-custom-valve-387307.cloudfunctions.net/clothing?text_val=This is an amazing bluepant
+ * Result
+![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/cc3bfc84-20bf-4f0c-b8ef-5b127e91e3c2)
+If no input text is given, a default text val="This is a stylish and comfortable kurti" is given as input text 
+![image](https://github.com/deepakanna/Clothing_similarity/assets/110763030/c0489665-1bb4-4d91-bef9-e749afbbcd8e)
+
 
  ## Files in the repository:
  - model : A folder containing two Jupyter notebooks. Web_scrap is a Jupyter notebook for  the webscraped data and a model to obtain the suggested urls for the input text.
@@ -32,7 +37,8 @@ Pass the input text as parameter to the URL given as
 1. Run the following command in the app's directory to run your web app.
     `python app.py`
 
-3. Go to http://127.0.0.1:5000
+2. Go to http://127.0.0.1:5000
+
 
 ## Result:
 The web app displays the Overview of the Training set and the distribution of the categories.
