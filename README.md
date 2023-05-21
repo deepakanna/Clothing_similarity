@@ -22,3 +22,11 @@ The similarity values are sorted in decending order to obtain the top similar de
  The function is deployed on Google Cloud Functions. The URL is 
 Pass the input text as parameter to the URL given as 
 
+ ## Files in the repository:
+ - model : A folder containing two Jupyter notebooks. Web_scrap is a Jupyter notebook for  the webscraped data and a model to obtain the suggested urls for the input text.
+ - web_app: A flask web application to run the application in a browser.
+ - scraped_data.csv : The data scraped from the websites is saved as acsv file.
+ - requirements.txt : Text file containing the libraries required for execution
+
+## Acknowledgements:
+ - I would like to thank Mercor for assigning me this project.
